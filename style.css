@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.container__SEA_FOOD{
+    color: #000000;
+}
+.container__SEA_FOOD h1 {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #bdbdbd56;
+    color: #202020;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #111010;
+   margin-top: 15px;
+}
+.menu-item {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(161, 157, 157, 0.301);
+    box-shadow: 17px 1px 33px -8px rgba(0, 0, 0, 0.53);
+    background-position: right;
+   
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;   
+}
